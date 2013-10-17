@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Montserrat, sans-serif;
+  color: #745785;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #a1a1a1;
+  font-size: 15px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.hero {
+  font-family: Montserrat, sans-serif;
+  color: snow;
+  font-size: 42px;
+}
+.hero.drop-shadow {
+  box-shadow: none;
+  text-shadow: rgba(18, 16, 16, 0.24) 1px 1px 0px;
+}
+.price-heading {
+  color: #d2cbd6;
+  font-size: 25px;
+}
+.section.hero-bg {
+  background-image: url(../images/hero-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+}
+.section.price {
+  background-color: #745785;
+}
+.section.gray {
+  background-color: #f5f6f7;
+}
+.hero-para {
+  color: #e3e3e3;
+}
+.column-hero {
+  margin-top: 150px;
+  margin-bottom: -2px;
+  padding-top: 0px;
+}
+.hero-img {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.organize {
+  padding-top: 60px;
+}
+.org-img {
+  margin-right: 85px;
+  margin-left: 0px;
+  padding-top: 43px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.dis-img {
+  margin-right: 85px;
+  padding-top: 43px;
+  padding-right: 0px;
+}
+.dis-column {
+  padding-top: 41px;
+}
+.share-column {
+  padding-top: 35px;
+}
+.share-img {
+  margin-right: -1px;
+  margin-bottom: 30px;
+  margin-left: 90px;
+  padding-left: 0px;
+}
+@media (max-width: 991px) {
+  p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hero {
+    font-size: 38px;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  .hero {
+    font-size: 32px;
+  }
+  .price-heading {
+    font-size: 32px;
+  }
+}
